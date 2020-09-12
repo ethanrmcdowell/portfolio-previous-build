@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #7e8a97;
+    color: #30475e;
 }
 
 h1 {
@@ -22,4 +22,14 @@ p {
     font-family: 'Dosis', sans-serif;
     font-size: 1.4rem;
     color: #30475e;
+}
+
+.socmedia {
+    width: 20%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.fab {
+    margin: 0 5px 0 5px;
 }
