@@ -33,3 +33,7 @@ p {
 .fab {
     margin: 0 5px 0 5px;
 }
+
+a:hover {
+    color: #7e8a97;
+}
