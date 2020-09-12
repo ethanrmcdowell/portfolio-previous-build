@@ -1,0 +1,25 @@
+body {
+    background: #e7dec8;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem;
+    color: #30475e;
+}
+
+a {
+    color: #7e8a97;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #30475e;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.4rem;
+    color: #30475e;
+}
