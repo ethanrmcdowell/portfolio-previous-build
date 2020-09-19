@@ -3,6 +3,7 @@ body {
     font-family: 'Dosis', sans-serif;
     font-size: 1.4rem;
     color: #30475e;
+    text-align: center;
 }
 
 a {
@@ -49,6 +50,10 @@ p {
     top: 60px;
     margin-bottom: 60px;
 
+}
+
+.bio-text {
+    text-align: left;
 }
 
 .fab {
