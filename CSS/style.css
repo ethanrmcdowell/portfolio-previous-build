@@ -1,5 +1,5 @@
 body {
-    background: #e7dec8;
+    background: #dfd3c3;
     font-family: 'Dosis', sans-serif;
     font-size: 1.4rem;
     color: #30475e;
@@ -23,8 +23,13 @@ h2 {
     font-size: 1.4rem;
 }
 
+header {
+    text-align: center;
+}
+
 nav {
     font-family: 'Bebas Neue', cursive;
+    background: #dfd3c3;
 }
 
 p {
@@ -55,6 +60,15 @@ p {
     height: 400px;
     margin-top: 80px;
     padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #dfd3c3;
+    text-align: center;
 }
 
 .navbar-text {
