@@ -75,6 +75,30 @@ p {
     padding-right: 30px;
 }
 
+.portsection {
+    padding: 50px 25px 15px 55px;
+}
+
+.portimg1 {
+    width: 441px;
+    height: 296px;
+}
+
+.portimg2 {
+    width: 419px;
+    height: 278px;
+}
+
+.portimg3 {
+    width: 442px;
+    height: 291px;
+}
+
+.portimg4 {
+    width: 442px;
+    height: 296px;
+}
+
 a:hover {
     color: #7e8a97;
 }
