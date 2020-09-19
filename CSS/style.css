@@ -105,6 +105,23 @@ p {
     margin-bottom: 50px;
 }
 
+.contact-form {
+    width: 60%;
+    margin: auto;
+}
+
+.btn {
+    background: #30475e;
+}
+
+.btn:hover {
+    background-color: #7e8a97;
+}
+
+.btn:active {
+    background-color: #7e8a97 !important;
+}
+
 a:hover {
     color: #7e8a97;
 }
