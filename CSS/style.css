@@ -10,6 +10,10 @@ a {
     color: #30475e;
 }
 
+p a {
+    text-decoration: underline;
+}
+
 h1 {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -102,8 +106,12 @@ p {
 .portimg4 {
     width: 442px;
     height: 296px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
+
+/* .portfolio-container {
+    margin-bottom: 100px;
+} */
 
 .contact-form {
     width: 60%;
