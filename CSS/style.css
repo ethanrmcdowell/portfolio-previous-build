@@ -109,9 +109,13 @@ p {
     margin-bottom: 150px;
 }
 
-/* .portfolio-container {
-    margin-bottom: 100px;
-} */
+.card {
+    margin: 60px 0 30px 0;
+}
+
+.col-12 {
+    margin-left: 60px;
+}
 
 .contact-form {
     width: 60%;
