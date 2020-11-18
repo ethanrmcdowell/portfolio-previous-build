@@ -43,6 +43,10 @@ p {
     color: #30475e;
 }
 
+#portfolio-box {
+    margin-bottom: 125px;
+}
+
 .socmedia {
     width: 20%;
     margin: auto;
