@@ -5,12 +5,12 @@ body {
     text-align: center;
 }
 
-a {
-    color: #cbbcb1;
-}
-
 p a {
     text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -123,11 +123,14 @@ p {
 
 .card {
     margin: 60px 0 30px 0;
-    background: #dfd3c3;
+    opacity: 20%;
+    background: #3b5249;
+    border: 5px solid #3b5249;
+    color: #cbbcb1;
 }
 
 .card-title {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.4rem;
 }
 
@@ -146,6 +149,7 @@ p {
 
 .btn {
     background: #30475e;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .btn:hover {
@@ -160,3 +164,15 @@ a:hover {
     color: #cbbcb1;
     text-decoration: none;
 }
+
+.card:hover {
+    opacity: 100%;
+}
+
+.home-link { 
+    width: 400px; 
+    height: 100px; 
+    background: linear-gradient(315deg, #556052 92%, #cbbcb1 92%);
+    color: white;
+    overflow: hidden;
+  }
