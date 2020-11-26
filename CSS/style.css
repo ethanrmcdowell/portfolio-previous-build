@@ -36,7 +36,7 @@ nav {
 }
 
 p {
-    font-family: 'Libre Barcode 128 Text', cursive;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.1rem;
     color: #30475e;
 }
@@ -72,15 +72,20 @@ p {
     color: #c87941;
 }
 
-.fab {
-    margin: 0 5px 0 5px;
-}
-
 .biopics {
     width: 400px;
     height: 400px;
     margin-top: 80px;
     padding: 20px;
+}
+
+.fas {
+    padding: 5px 0 0 5px;
+    position: absolute;
+    left: 0;
+    right: 100%;
+    text-align: left;
+    color: #556052;
 }
 
 .footer {
@@ -169,8 +174,13 @@ a:hover {
     opacity: 100%;
 }
 
-.home-link { 
-    width: 400px; 
+.home-link:hover {
+    opacity: 50%;
+}
+
+.home-link {
+    position: relative;
+    width: 600px; 
     height: 100px; 
     background: linear-gradient(315deg, #556052 92%, #cbbcb1 92%);
     color: white;
