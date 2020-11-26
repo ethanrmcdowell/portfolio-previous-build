@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- GOOGLE FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@500&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
     <!-- BOOTSTRAP LINK -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CSS LINK -->
     <link rel="stylesheet" href="CSS/style.css">
+    <!-- JQUERY SCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
     <title>ETHAN R. MCDOWELL</title>
 </head>
 
 <!-- NAVBAR WITH TEXT ON LEFT, LINKS TO HOME/PORTFOLIO/CONTACT -->
-<nav class="navbar navbar-expand-lg navbar-light">
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,7 +43,7 @@
             </li>
         </ul>
     </nav>
-</nav>
+</nav> -->
 
 
 
@@ -48,45 +51,26 @@
 
 
 <body>
-    <header>
-        <h1>WELCOME.</h1>
-    </header>
+    <div id="title-links">
+        <a id="portfolio-link" href="portfolio.html"><h1 id="portfolio-text">ETHAN</h1></a>
+        <a id="contact-link" href="contact.html"><h1 id="contact-text">R.</h1></a>
+        <a id="resume-link" href="EthanResume.PDF"><h1 id="resume-text">MCDOWELL</h1></a>
+    </div>
 
 
-    <!-- QUICK BIO WITH PICTURES, ON MEDIUM OR LARGER SCREENS ALL APPEAR ON ONE LINE, SMALLER SCREENS SHOW EACH ITEM ON SEPARATE LINES -->
-    <main class="container">
-        <section class="row">
-            <article class="col-md-4 bio">
-                <h2>My name is Ethan McDowell. I'm an aspiring programmer based out of Detroit, Michigan.</h2>
-                <p class="bio-text">I was born and raised in New Hampshire, where I eventually attended the University
-                    of New Hampshire
-                    and received my bacherlor's degree in Medical Laboratory science. After university, I moved to New
-                    York City where I managed a physician's office. Eventually I made my way to Detroit, MI to be closer
-                    to family and I've been here since 2017. Since I was a child I've been facinated by computers. My
-                    father is a computer engineer who taught me the basics of C++ (which I have since forgotten) and
-                    computer hardware and repair as a child, and those interests haven't left me. I had my greatest
-                    exposure to the world of coding when I was a teenager. I tought myself HTML and CSS in order to
-                    style LiveJournal and MySpace pages for myself and my friends.</p>
-            </article>
-            <article class="col-md-4">
-                <img class="biopics" src="IMAGES/disneydance.jpg" alt="baby Ethan dancing at Disney">
-            </article>
-            <article class="col-md-4">
-                <img class="biopics" src="IMAGES/ethancomputer.jpg" alt="baby Ethan using a computer">
-            </article>
-        </section>
-    </main>
+
 
     <!-- FOOTER WITH SOCIAL MEDIA LINKS -->
-    <footer class="footer no-gutters">
+    <!-- <footer class="footer no-gutters">
         <a href="https://www.facebook.com/ethan.mcdowell/"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.instagram.com/ethansuckz/"><i class="fab fa-instagram-square fa-2x"></i></a>
         <a href="https://github.com/ethanrmcdowell"><i class="fab fa-github-square fa-2x"></i></a>
         <a href="https://www.last.fm/user/spartaoverboard"><i class="fab fa-lastfm-square fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/ethan-mcdowell-083190107/"><i class="fab fa-linkedin fa-2x"></i></a>
-    </footer>
+    </footer> -->
 
     <!-- BOOTSTRAP JS SCRIPTS -->
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
