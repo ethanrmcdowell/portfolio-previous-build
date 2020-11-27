@@ -16,13 +16,13 @@ $("#contact-link").on("mouseenter", function(e){
     $("#contact-text").css("opacity", "50%");
 });
 
-$("#contact-link").on("mouseleave", function(e){
+$("#contact-link").on("mouseleave", function(){
     $("#contact-text").text("R.");
     $("#contact-text").css("margin-left", "0");
     $("#contact-text").css("opacity", "100%");
 });
 
-$("#resume-link").on("mouseenter", function(e){
+$("#resume-link").on("mouseenter", function(){
     $("#resume-text").text("RESUME");
     $("#resume-text").css("margin-left", "13%");
     $("#resume-text").css("opacity", "50%");
@@ -32,4 +32,8 @@ $("#resume-link").on("mouseleave", function(e){
     $("#resume-text").text("MCDOWELL");
     $("#resume-text").css("margin-left", "0");
     $("#resume-text").css("opacity", "100%");
+});
+
+$("#click-copy").click(function(){
+    alert("HELLO!");
 });

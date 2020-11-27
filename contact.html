@@ -11,7 +11,10 @@
   <link rel="stylesheet" href="CSS/style.css">
   <!-- GOOGLE FONT -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <!-- FONTAWESOME SCRIPT -->
+  <script src="https://kit.fontawesome.com/1efd5aad95.js" crossorigin="anonymous"></script>
 
 
   <title>ETHAN R. MCDOWELL</title>
@@ -22,27 +25,22 @@
   <a href="index.html">
     <div class="home-link"><i class="fas fa-step-backward"></i></div>
   </a>
-  
+
   <header>
     <h1>contact information.</h1>
   </header>
 
 
-  <!-- FORM TO CONTACT ME - NOT COMPLETELY FUNCTIONAL WITHOUT JS, BUT SUMBIT BUTTON DOES HAVE MAILTO LINK -->
   <div>
-    <p><i class="fas fa-envelope"></i> <a href="mailto:ethan.r.mcdowell@gmail.com">ethan.r.mcdowell@gmail.com</a></p>
-    <p><i class="fas fa-phone-alt"></i> (313) 400-5611</p>
-  </div>
-
-
-  <!-- FOOTER WITH SOCIAL MEDIA LINKS -->
-  <!-- <footer class="footer no-gutters">
     <a href="https://www.facebook.com/ethan.mcdowell/"><i class="fab fa-facebook-square fa-2x"></i></a>
     <a href="https://www.instagram.com/ethansuckz/"><i class="fab fa-instagram-square fa-2x"></i></a>
     <a href="https://github.com/ethanrmcdowell"><i class="fab fa-github-square fa-2x"></i></a>
     <a href="https://www.last.fm/user/spartaoverboard"><i class="fab fa-lastfm-square fa-2x"></i></a>
     <a href="https://www.linkedin.com/in/ethan-mcdowell-083190107/"><i class="fab fa-linkedin fa-2x"></i></a>
-  </footer> -->
+    <i class="fa fa-envelope-square fa-2x" id="click-copy" onClick="copyEmail()"></i>
+    <p id="copied-alert">e-mail copied to clipboard!</p>
+  </div>
+
 
   <!-- BOOTSTRAP JS SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -54,10 +52,22 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
+  <script>
+    function copyEmail(){
+      var emailText = "ethan.r.mcdowell@gmail.com";
+      var input = document.createElement("input");
+      input.value = emailText;
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("Copy");
+      document.body.removeChild(input);
+      $("#copied-alert").css("display", "block");
+      setTimeout(function(){
+        $("#copied-alert").css("display", "none");
+      }, 1500);
+    }
+  </script>
 </body>
-
-<!-- FONTAWESOME SCRIPT -->
-<script src="https://kit.fontawesome.com/1efd5aad95.js" crossorigin="anonymous"></script>
 
 </body>
 
