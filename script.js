@@ -33,7 +33,3 @@ $("#resume-link").on("mouseleave", function(){
     $("#resume-text").css("margin-left", "0");
     $("#resume-text").css("opacity", "100%");
 });
-
-$("#click-copy").click(function(){
-    alert("HELLO!");
-});
